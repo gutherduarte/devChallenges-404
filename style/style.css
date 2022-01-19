@@ -1,0 +1,134 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+}
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    margin-top: 4%;
+}
+.image {
+    text-align: center;
+    width: 100%;
+}
+img {
+    max-width: 80%;
+    max-height: auto;
+}
+.info{
+    width: 80%;
+}
+.button {
+    background-color: #333333;
+    color: #FFFFFF;
+    font-weight: bold;
+    border: none;
+    width: 30%;
+    height: 12%;
+    letter-spacing: -0.035em;
+    word-spacing: 0.2em;
+    font-size: 14px;
+    font-style: normal;
+    margin-top: 2%;
+}
+.footer {
+    text-align: center;
+    color: #BDBDBD;
+    margin-top: auto;
+}
+.header {
+    font-weight: bold;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+a {
+    font-weight: bold;
+    color: #BDBDBD;;
+}
+.message {
+    width: 90%;
+    font-size: 55px;
+    letter-spacing: -0.035em;
+    color: #333333;
+    word-spacing: 0.3em;
+    
+}
+.description {
+    width: 58%;
+    color: #4F4F4F;
+    font-size: 24px;
+    word-spacing: 0.3em;
+    letter-spacing: -0.035em;
+}
+@media only screen and (max-width: 768px ){
+    body {
+        margin: 0;
+        font-family: "Poppins", sans-serif;
+    }
+    .container {
+        height: 100vh;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .header {
+        margin-top: 4%;
+        margin-left: 4%;
+    }
+    .flex {
+        display: flex;
+        flex-direction: column;
+        margin-top: 8%;
+        align-items: center;
+    }
+    .image {
+        height: 35%;
+        width: 80%;
+        text-align: center;
+        margin-bottom: 2%;
+    }
+    img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .info {
+        height: 60%;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .message {
+        margin: 0;
+        font-size: 3em;
+        font-weight: bold;
+        width: 100%;
+        word-spacing: 0.4em;
+    }
+    .description {
+        font-size: 1.2em;
+        width: 85%;
+        
+    }
+    .button {
+        height: 20%;
+        width: 60%;
+        margin: 0;
+        font-size: small;
+    }
+    .footer {
+        margin-top: auto;
+        text-align: center;
+        font-size: 0.8em;
+        margin-bottom: 10px;
+    }
+}
